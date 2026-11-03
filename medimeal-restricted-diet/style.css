@@ -155,3 +155,12 @@ h1, h2, h3 { margin: 0; }
   .hero h1 { font-size: 1.5rem; }
   .why-grid, .voice-grid { grid-template-columns: 1fr; }
 }
+
+/* 関連ページ */
+.related { padding: 0 24px 56px; }
+.related-inner { max-width: 1040px; margin: 0 auto; }
+.related h2 { text-align: center; font-size: 1.3rem; margin-bottom: 20px; }
+.related-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.related-list a { display: block; padding: 16px 20px; border: 1px solid rgba(128,128,128,0.35); border-radius: 12px; font-weight: 700; }
+.related-list a::after { content: " →"; }
+.related-list a:hover { opacity: 0.75; }
