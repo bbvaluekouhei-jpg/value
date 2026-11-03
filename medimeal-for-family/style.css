@@ -1,9 +1,9 @@
 :root {
-  --teal: #3f6fb0;
-  --teal-dark: #2b5389;
-  --blue-light: #eef3fb;
-  --navy: #1f2838;
-  --gray: #606b7c;
+  --teal: #1a8f8a;
+  --teal-dark: #146b67;
+  --blue-light: #eaf7f6;
+  --navy: #1f2e2d;
+  --gray: #647270;
   --gold: #f4b942;
   --radius: 14px;
   font-size: 16px;
@@ -15,7 +15,7 @@ body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   color: var(--navy);
-  background: #f9fbfe;
+  background: #f8fdfc;
   line-height: 1.7;
 }
 
@@ -36,7 +36,7 @@ h1, h2, h3 { margin: 0; }
 
 .header {
   background: #fff;
-  border-bottom: 1px solid #dde6f3;
+  border-bottom: 1px solid #dcf0ee;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -56,7 +56,7 @@ h1, h2, h3 { margin: 0; }
 .header-nav a:hover { color: var(--teal-dark); }
 
 .hero {
-  background: linear-gradient(135deg, var(--blue-light) 0%, #d9e5f6 100%);
+  background: linear-gradient(135deg, var(--blue-light) 0%, #d3f0ec 100%);
   text-align: center;
   position: relative;
 }
@@ -97,12 +97,11 @@ h1, h2, h3 { margin: 0; }
   border-radius: var(--radius);
   margin-bottom: 12px;
   overflow: hidden;
-  border: 1px solid #dde6f3;
+  border: 1px solid #dcf0ee;
 }
 .rank-card.rank-1 { border-color: var(--gold); background: #fff8e9; }
 .rank-card-body { padding: 18px 28px; flex: 1; }
 .rank-card-head h3 { font-size: 1.05rem; }
-.rank-catch { color: var(--teal-dark); font-weight: 600; font-size: 0.9rem; margin-top: 10px; }
 
 .compare { background: #fff; }
 .table-wrap { overflow-x: auto; }
@@ -114,13 +113,13 @@ h1, h2, h3 { margin: 0; }
   overflow: hidden;
   font-size: 0.92rem;
 }
-.compare-table th, .compare-table td { padding: 16px; text-align: left; border-bottom: 1px solid #dde6f3; }
+.compare-table th, .compare-table td { padding: 16px; text-align: left; border-bottom: 1px solid #dcf0ee; }
 .compare-table thead th { background: var(--teal-dark); color: #fff; }
 .compare-table .highlight-row { background: #fff8e9; font-weight: 700; }
 .disclaimer-inline { text-align: center; font-size: 0.78rem; color: var(--gray); margin-top: 16px; }
 
 .cta-final {
-  background: linear-gradient(135deg, var(--teal-dark), #6f9bd6);
+  background: linear-gradient(135deg, var(--teal-dark), #4fb8ac);
   color: #fff;
   text-align: center;
 }
@@ -142,11 +141,11 @@ h1, h2, h3 { margin: 0; }
 
 .faq { background: #fff; }
 .faq-list { max-width: 720px; margin: 32px auto 0; }
-.faq-item { background: var(--blue-light); border: 1px solid #dde6f3; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
+.faq-item { background: var(--blue-light); border: 1px solid #dcf0ee; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
 .faq-item summary { cursor: pointer; font-weight: 700; font-size: 0.92rem; }
 .faq-item p { margin-top: 10px; color: var(--gray); font-size: 0.88rem; }
 
-.footer { background: var(--navy); color: #cbd3e0; }
+.footer { background: var(--navy); color: #c9d6d4; }
 .footer-inner { padding: 40px 24px; text-align: center; }
 .footer-disclaimer { font-size: 0.75rem; line-height: 1.8; opacity: 0.85; }
 .footer-copy { margin-top: 16px; font-size: 0.78rem; opacity: 0.6; }
@@ -156,3 +155,6 @@ h1, h2, h3 { margin: 0; }
   .hero h1 { font-size: 1.5rem; }
   .why-grid, .voice-grid { grid-template-columns: 1fr; }
 }
+
+/* 追加LP用の補助スタイル */
+.rank-catch { color: var(--teal-dark); font-weight: 600; font-size: 0.9rem; margin-top: 10px; }

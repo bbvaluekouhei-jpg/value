@@ -1,10 +1,10 @@
 :root {
-  --orange: #4f8a5b;
-  --orange-dark: #356b42;
-  --green: #c97b3a;
-  --cream: #f2f8f0;
-  --navy: #26302a;
-  --gray: #5f6b62;
+  --orange: #e8792a;
+  --orange-dark: #c05f18;
+  --green: #5a8f4e;
+  --cream: #fff7ee;
+  --navy: #2e2a22;
+  --gray: #6f6659;
   --gold: #f4b942;
   --radius: 14px;
   font-size: 16px;
@@ -16,7 +16,7 @@ body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   color: var(--navy);
-  background: #fbfdf9;
+  background: #fffdfa;
   line-height: 1.7;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3 { margin: 0; }
 
 .header {
   background: #fff;
-  border-bottom: 1px solid #dfeedd;
+  border-bottom: 1px solid #f5e7d6;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -57,7 +57,7 @@ h1, h2, h3 { margin: 0; }
 .header-nav a:hover { color: var(--orange-dark); }
 
 .hero {
-  background: linear-gradient(135deg, var(--cream) 0%, #dcefd8 100%);
+  background: linear-gradient(135deg, var(--cream) 0%, #ffe6cf 100%);
   text-align: center;
   position: relative;
 }
@@ -114,9 +114,9 @@ h1, h2, h3 { margin: 0; }
   overflow: hidden;
   font-size: 0.92rem;
 }
-.compare-table th, .compare-table td { padding: 16px; text-align: left; border-bottom: 1px solid #dfeedd; }
+.compare-table th, .compare-table td { padding: 16px; text-align: left; border-bottom: 1px solid #f5e7d6; }
 .compare-table thead th { background: var(--orange-dark); color: #fff; }
-.compare-table .highlight-row { background: #eef7ea; font-weight: 700; }
+.compare-table .highlight-row { background: #fff8e9; font-weight: 700; }
 .disclaimer-inline { text-align: center; font-size: 0.78rem; color: var(--gray); margin-top: 16px; }
 
 .cta-final {
@@ -142,11 +142,11 @@ h1, h2, h3 { margin: 0; }
 
 .faq { background: #fff; }
 .faq-list { max-width: 720px; margin: 32px auto 0; }
-.faq-item { background: var(--cream); border: 1px solid #dfeedd; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
+.faq-item { background: var(--cream); border: 1px solid #f5e7d6; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
 .faq-item summary { cursor: pointer; font-weight: 700; font-size: 0.92rem; }
 .faq-item p { margin-top: 10px; color: var(--gray); font-size: 0.88rem; }
 
-.footer { background: var(--navy); color: #d4ddd2; }
+.footer { background: var(--navy); color: #ddd3c2; }
 .footer-inner { padding: 40px 24px; text-align: center; }
 .footer-disclaimer { font-size: 0.75rem; line-height: 1.8; opacity: 0.85; }
 .footer-copy { margin-top: 16px; font-size: 0.78rem; opacity: 0.6; }
