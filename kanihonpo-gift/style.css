@@ -144,15 +144,6 @@ h1, h2, h3 { margin: 0; }
   .why-grid, .voice-grid { grid-template-columns: 1fr; }
 }
 
-/* 追加LP用の補助スタイル */
-.compare { background: #fff; }
-.compare h2 { text-align: center; font-size: 1.7rem; margin-bottom: 8px; }
-.table-wrap { overflow-x: auto; }
-.compare-table { width: 100%; border-collapse: collapse; background: var(--cream); border-radius: var(--radius); overflow: hidden; font-size: 0.92rem; }
-.compare-table th, .compare-table td { padding: 16px; text-align: left; border-bottom: 1px solid rgba(0,0,0,0.08); }
-.compare-table thead th { background: var(--red-dark); color: #fff; }
-.compare-table .highlight-row { background: #fff8e9; font-weight: 700; }
-
 /* 関連ページ */
 .related { padding: 0 24px 56px; }
 .related-inner { max-width: 1040px; margin: 0 auto; }
@@ -161,3 +152,12 @@ h1, h2, h3 { margin: 0; }
 .related-list a { display: block; padding: 16px 20px; border: 1px solid rgba(128,128,128,0.35); border-radius: 12px; font-weight: 700; }
 .related-list a::after { content: " →"; }
 .related-list a:hover { opacity: 0.75; }
+
+/* 追加LP用の補助スタイル */
+.compare { background: #fff; }
+.compare h2 { text-align: center; font-size: 1.7rem; margin-bottom: 8px; }
+.table-wrap { overflow-x: auto; }
+.compare-table { width: 100%; border-collapse: collapse; background: var(--cream); border-radius: var(--radius); overflow: hidden; font-size: 0.92rem; }
+.compare-table th, .compare-table td { padding: 16px; text-align: left; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.compare-table thead th { background: var(--red-dark); color: #fff; }
+.compare-table .highlight-row { background: #fff8e9; font-weight: 700; }
